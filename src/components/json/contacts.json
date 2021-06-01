@@ -1,5 +1,3 @@
-
-
 [
   {
     "id": "id-1",
@@ -12,7 +10,7 @@
     "id": "id-2",
     "item": "email",
     "icon": "https://image.flaticon.com/icons/png/128/552/552486.png",
-    "link": "VatryaVV@gmail.com",
+    "link": "mailto:VatryaVV@gmail.com",
     "name": "VatryaVV@gmail.com"
   },
   

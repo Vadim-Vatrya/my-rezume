@@ -1,5 +1,7 @@
 import React from 'react';
 import {createUseStyles} from 'react-jss';
+import PropTypes from 'prop-types';
+
 
 const useStyles = createUseStyles({
   Container: {
@@ -11,13 +13,15 @@ const useStyles = createUseStyles({
   }
 })
 
-const Container = ({children}) => {
+const  Container = ({ children }) => {
+
   const classes = useStyles();
-  return (
-    <div className={classes.Container}>
-      {children}
-    </div>
-  )
+
+  return <div className={classes.Container}>{children}</div>;
+}
+
+Container.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 export default Container;

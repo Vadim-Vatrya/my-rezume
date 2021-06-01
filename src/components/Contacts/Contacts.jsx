@@ -22,7 +22,7 @@ const Contacts = ({ item, link, name, icon }) => {
   const classes = useStyles();
   return (
     <li className={classes.contact}>
-      <img src={icon} alt={item} className={classes.icon}/>
+      <img src={icon} alt={item} width="25" className={classes.icon}/>
       <a href={link} className={classes.link}>
         {name}
       </a>
