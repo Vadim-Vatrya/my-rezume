@@ -2,9 +2,10 @@ import React from 'react';
 
 import style from './SideBar.scss';
 import PropTypes from 'prop-types';
-// import contacts from '../json/contacts.json';
+
 
 import Contacts from '../Contacts';
+import TechSkills from '../TechSkills/TechSkills';
 
 const SideBar = ({ contacts }) => {
   return (
@@ -25,8 +26,29 @@ const SideBar = ({ contacts }) => {
             ))}
           </ul>
         </div>
-      
-    
+        
+        <div>
+          <h3>Tech Skills</h3>
+          <ul>
+            {techSkills.map(({id, label}) => {
+              <TechSkills 
+               key={id}
+               label={label}
+              />
+            })}
+          </ul>
+        </div>
+
+        {/* <div>
+          <h3>Soft Skills</h3>
+          <ul>
+            {softSkills.map(({}) => {
+              <SoftSkills
+               key={id}
+               label={label}/>
+            })}
+          </ul>
+        </div> */}
       </aside>
     </div>
   );
@@ -34,7 +56,7 @@ const SideBar = ({ contacts }) => {
 
 SideBar.propTypes = {
   contacts: PropTypes.arrayOf(PropTypes.object),
-  // techSkills: PropTypes.arrayOf(PropTypes.object),
+  techSkills: PropTypes.arrayOf(PropTypes.object),
   // softSkills: PropTypes.arrayOf(PropTypes.object),
 };
 

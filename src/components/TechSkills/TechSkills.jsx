@@ -1,11 +1,11 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 
 
-const TechSkills = ({}) => {
+
+const TechSkills = ({label}) => {
   return (
     <li>
-      <p></p>
+      <p>{label}</p>
     </li>
   )
 }

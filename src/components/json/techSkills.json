@@ -1,0 +1,23 @@
+[
+  {
+    "id": "id-1",
+    "label": "HTML5/CSS3/SASS"
+  },
+  { 
+    "id": "id-2",
+    "label": "JavaScript Es6+" 
+  },
+  {
+     "id": "id-3",
+    "label": "SASS"
+    },
+  {
+     "id": "id-4",
+    "label": ""
+    },
+  {
+     "id": "id-5",
+    "label": "React JS"
+    },
+  { "id": "id-6" }
+]
