@@ -5,8 +5,9 @@ import PropTypes from 'prop-types';
 
 import Contacts from '../Contacts';
 import TechSkills from '../TechSkills';
+import SoftSkills from '../SoftSkills';
 
-const SideBar = ({ contacts, techSkills }) => {
+const SideBar = ({ contacts, techSkills, softSkills }) => {
   return (
     <div>
       {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
@@ -38,16 +39,27 @@ const SideBar = ({ contacts, techSkills }) => {
           </ul>
         </div>
 
-        {/* <div>
+        <div>
           <h3>Soft Skills</h3>
           <ul>
-            {softSkills.map(({}) => {
+            {softSkills.map(({ id, label }) => (
               <SoftSkills
                key={id}
                label={label}/>
-            })}
+            ))}
           </ul>
-        </div> */}
+        </div>
+
+        <div>
+          <h3>Languages</h3>
+          <ul>
+            {languages.map(({ id, label }) => (
+              <Languages 
+               key={id} 
+               label={label}/>
+            ))}
+          </ul>
+        </div>
       </aside>
     </div>
   );
@@ -56,7 +68,7 @@ const SideBar = ({ contacts, techSkills }) => {
 SideBar.propTypes = {
   contacts: PropTypes.arrayOf(PropTypes.object),
   techSkills: PropTypes.arrayOf(PropTypes.object),
-  // softSkills: PropTypes.arrayOf(PropTypes.object),
+  softSkills: PropTypes.arrayOf(PropTypes.object),
 };
 
 export default SideBar;

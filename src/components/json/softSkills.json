@@ -1,0 +1,22 @@
+[
+  {
+    "id": "id-1",
+    "label": "Teamwork"
+  },
+  { 
+    "id": "id-2",
+    "label": "Responseble" 
+  },
+  {
+     "id": "id-3",
+    "label": "Proactive"
+    },
+  {
+     "id": "id-4",
+    "label": "Hardworking"
+    },
+  {
+     "id": "id-5",
+    "label": "Open to new knowledge"
+    }
+]

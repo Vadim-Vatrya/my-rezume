@@ -5,6 +5,7 @@ import SideBar from './components/SideBar';
 
 import contacts from './components/json/contacts.json';
 import techSkills from './components/json/techSkills.json';
+import softSkills from './components/json/softSkills.json'
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <SideBar
         contacts={contacts}
         techSkills={techSkills}
+        softSkills={softSkills}
+        languages={languages}
         /> 
        {/* <AboutMe />  */}
     </Container>
