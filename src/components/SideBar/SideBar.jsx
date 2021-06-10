@@ -3,11 +3,10 @@ import React from 'react';
 import style from './SideBar.scss';
 import PropTypes from 'prop-types';
 
-
 import Contacts from '../Contacts';
-import TechSkills from '../TechSkills/TechSkills';
+import TechSkills from '../TechSkills';
 
-const SideBar = ({ contacts }) => {
+const SideBar = ({ contacts, techSkills }) => {
   return (
     <div>
       {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
@@ -26,16 +25,16 @@ const SideBar = ({ contacts }) => {
             ))}
           </ul>
         </div>
-        
+
         <div>
           <h3>Tech Skills</h3>
           <ul>
-            {techSkills.map(({id, label}) => {
+            {techSkills.map(({ id, label }) => (
               <TechSkills 
-               key={id}
-               label={label}
+              key={id} 
+              label={label} 
               />
-            })}
+            ))}
           </ul>
         </div>
 
