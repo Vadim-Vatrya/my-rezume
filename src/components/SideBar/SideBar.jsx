@@ -6,8 +6,9 @@ import PropTypes from 'prop-types';
 import Contacts from '../Contacts';
 import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
+import Languages from '../Languages';
 
-const SideBar = ({ contacts, techSkills, softSkills }) => {
+const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
   return (
     <div>
       {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
