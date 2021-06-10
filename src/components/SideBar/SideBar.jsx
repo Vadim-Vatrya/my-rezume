@@ -13,21 +13,6 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
     <div>
       {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
       <aside className={style.aside}>
-        <div className={style.section}>
-          <h3 className={style.name}>Contacts</h3>
-          <ul>
-            {contacts.map(({ id, item, link, name, icon }) => (
-              <Contacts
-                key={id}
-                item={item}
-                link={link}
-                name={name}
-                icon={icon}
-              />
-            ))}
-          </ul>
-        </div>
-
         <div>
           <h3>Tech Skills</h3>
           <ul>
@@ -47,6 +32,21 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
               <SoftSkills
                key={id}
                label={label}/>
+            ))}
+          </ul>
+        </div>
+
+        <div className={style.section}>
+          <h3 className={style.name}>Contacts</h3>
+          <ul>
+            {contacts.map(({ id, item, link, name, icon }) => (
+              <Contacts
+                key={id}
+                item={item}
+                link={link}
+                name={name}
+                icon={icon}
+              />
             ))}
           </ul>
         </div>
