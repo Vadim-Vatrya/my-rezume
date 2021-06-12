@@ -53,10 +53,10 @@ const Summary = ({ teamWork, personalWork, workExperience }) => {
     <div>
       <h2>Work Experiance</h2>
       <ol>
-        {workExperience.map(({ id, profession, company, time, country, tasks}) => (
+        {workExperience.map(({ id, specialty, company, time, country, tasks}) => (
           <Experiance 
            key={id}
-           profession={profession}
+           specialty={specialty}
            company={company}
            time={time}
            country={country}

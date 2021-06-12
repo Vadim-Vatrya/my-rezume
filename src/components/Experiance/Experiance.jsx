@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Experiance = ({ profession, company, time, country, tasks }) => {
+const Experiance = ({ specialty, company, time, country, tasks }) => {
   return (
     <li>
       <h4>
-        {profession}
+        {specialty}
         <span>{company}</span>
       </h4>
       <span>
