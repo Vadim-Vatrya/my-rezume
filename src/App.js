@@ -1,7 +1,7 @@
 import React from 'react';
 import Container from './components/Container';
 import SideBar from './components/SideBar';
-import Specification from './components/Specification'
+import Summary from './components/Summary'
  
 
 import contacts from './components/json/contacts.json';
@@ -18,7 +18,7 @@ function App() {
         contacts={contacts}
         languages={languages}
       />
-      <Specification/> 
+      <Summary/> 
     </Container>
   );
 }
