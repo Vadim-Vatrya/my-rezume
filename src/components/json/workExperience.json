@@ -1,43 +1,60 @@
 [
   {
     "id": "id-1",
-    "specialty": "Accountant",
-    "company": "Private enterprise",
-    "time": "June 2017 - April 2020",
+    "specialty": "Inspector technical control department",
+    "company": "Private enterprise Avia-Pro",
+    "time": "April 2008 - July 2005",
     "country": "Ukraine",
     "tasks": [
       {
         "id": "1",
-        "task": "Accounting of several legal entities in the 1c program."
+        "task": "Control quality of polymer products"
       },
       {
         "id": "2",
-        "task": "Organization and maintenance of all areas of accounting - from primary documentation to tax and accounting."
+        "task": "Organization, introduction and maintenance system of quality ISO:2005"
       },
       {
         "id": "3",
-        "task": "Data analysis in Excel."
+        "task": "Introduction of electronic document management at the enterprise"
       }
     ]
   },
   {
     "id": "id-2",
-    "specialty": "Call Center Operator",
-    "company": "PJSC Datagroup",
+    "specialty": "Manager workshops concrete products",
+    "company": "Private enterprise Evroclass",
+    "time": "June 2015 - May 2008",
+    "country": "Ukraine",
+    "tasks": [
+      {
+        "id": "1",
+        "task": "Installation and commissioning of a concrete plant"
+      },
+      {
+        "id": "2",
+        "task": "Production automation"
+      }
+    ]
+  },
+  {
+    "id": "id-3",
+    "specialty": "Manager of the food department",
+    "company": "Private enterprise",
     "time": "May 2017 - June 2017",
     "country": "Ukraine",
     "tasks": [
       {
         "id": "1",
-        "task": "Providing Oschadbank clients with qualified advice on banking products and services."
+        "task": "Launch and commissioning of a new food plant"
       },
       {
         "id": "2",
-        "task": "Execution of operations on payment cards at the request of clients."
+        "task": "Introduction  system of quality ISO:2009 for food production"
       },
       {
         "id": "3",
-        "task": "Experience with CRM-system."
+        "task": "Production automation"
       }
     ]
   }
