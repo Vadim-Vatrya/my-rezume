@@ -8,6 +8,10 @@ import contacts from './components/json/contacts.json';
 import techSkills from './components/json/techSkills.json';
 import softSkills from './components/json/softSkills.json';
 import languages from './components/json/languages.json';
+import teamWork from './components/json/teamWork.json';
+import personalWork from './components/json/personalWork.json';
+
+import workExperience from './components/json/workExperience.json';
 
 function App() {
   return (
@@ -18,7 +22,12 @@ function App() {
         contacts={contacts}
         languages={languages}
       />
-      <Summary/> 
+      <Summary
+        teamWork={teamWork}
+        personalWork={personalWork}
+        workExperience={workExperience}
+        // education={education}
+      /> 
     </Container>
   );
 }

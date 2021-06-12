@@ -1,0 +1,14 @@
+[
+  {
+    "id": "id-1",
+    "label": "Ice cream",
+    "link": "https://vitalii-skubii.github.io/icecream/",
+    "technology": "HTML5, Css, Sass"
+  },
+  { 
+    "id": "id-2",
+    "label": "Final Project",
+    "link": "",
+    "technology": "React, NodeJS, JavaScript"
+  }
+]

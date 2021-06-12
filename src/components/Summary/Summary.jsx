@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Summary = ({}) => {
+import Project from '../Project';
+import Experiance from '../Experiance';
+
+
+
+const Summary = ({ teamWork, personalWork, workExperience }) => {
   return (
   <div>
     <div>
@@ -13,8 +18,55 @@ const Summary = ({}) => {
     </div>
 
     <div>
-      <h3>projects</h3>
+      <h3>PROJECTS</h3>
+      <h4>
+        <p>Team project</p>
+      </h4>
+      <ol>
+        {teamWork.map(({ id, label, link, technology}) => (
+          <Project 
+          key={id}
+          label={label}
+          link={link}
+          technology={technology}
+          />
+        ))}
+      </ol>
     </div>
+
+    <div>
+      <h4>
+        <p>My project</p>
+      </h4>
+      <ol>
+        {personalWork.map(({id, label, link, technology}) => (
+          <Project
+          key={id}
+          label={label}
+          link={link}
+          technology={technology}
+          />
+        ))}
+      </ol>
+    </div>
+
+    <div>
+      <h2>Work Experiance</h2>
+      <ol>
+        {workExperience.map(({ id, profession, company, time, country, tasks}) => (
+          <Experiance 
+           key={id}
+           profession={profession}
+           company={company}
+           time={time}
+           country={country}
+           tasks={tasks}
+           />
+        ),
+        )}
+      </ol>
+    </div>
+
   </div>
   )
 };

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "id-1",
+    "label": "Web Studio",
+    "link": "https://vadim-vatrya.github.io/goit-markup-hw-08/",
+    "technology": "HTML5, Css3, Sass"
+  },
+  { 
+    "id": "id-2",
+    "label": "Image Finder",
+    "link": "https://vadim-vatrya.github.io/goit-js-hw-13-image-finder/",
+    "technology": "JavaScript, Css3, Webpack"
+  },
+  { 
+    "id": "id-3",
+    "label": "Games shake",
+    "link": "",
+    "technology": "JavaScript, Css3, Webpack"
+  },
+  { 
+    "id": "id-4",
+    "label": "Movies",
+    "link": "https://vadim-vatrya-goit-react-hw-04-movies.netlify.app",
+    "technology": "ReactJS, React-Router, React hooks "
+  },
+  {"id": "id-4",
+    "label": "PhoneBook",
+    "link": "https://vadim-vatrya-goit-react-hw-09-phonebook.netlify.app",
+    "technology": "ReactJS, Redux, React-Router, React hooks, MaterialUi "
+  },
+  {"id": "id-4",
+    "label": "To do list",
+    "link": "https://vadim-vatrya.github.io/to-do-react/",
+    "technology": "ReactJS,  React hooks, MaterialUi "
+  }
+]
