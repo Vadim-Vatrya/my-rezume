@@ -4,20 +4,19 @@ import { createUseStyles } from 'react-jss';
 const useStyles = createUseStyles({
   item:{
     listStyle: 'none',
-    '&:last-item': {marginBottom: 10},
-    '&:not(:last-child)': {
+      '&:not(:last-child)': {
     marginBottom: 25,
     },
   },
   title:{
-    
     fontWeight: 700,
-    fontSize: 16,
-    lineHeight: 1.5
+    fontSize: 18,
+    lineHeight: 1.5,
+    color:'#f7610a'
   },
   company:{
     marginBottom: 5,
-    color:'#f7610a'
+    
   },
   time: {
     display: 'block',
@@ -33,7 +32,8 @@ const useStyles = createUseStyles({
     fontSize: 14,
     lineHeight: 1.71,
     listStyle: 'inside',
-    color: '#f7610a'
+    color: '#585859',
+    // marginBottom: 10
   },
 })
 
@@ -53,7 +53,7 @@ const Experiance = ({ specialty, company, time, country, tasks }) => {
       </span>
       <ul>
         {tasks.map(({ id, task }) => (
-          <li key={id} className={task}>{task}</li>
+          <li key={id} className={classes.task}>{task}</li>
         ))}
       </ul>
     </li>

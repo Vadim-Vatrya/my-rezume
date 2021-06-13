@@ -5,6 +5,7 @@ const useStyles = createUseStyles({
   item: {
     marginLeft: 20,
     fontWeight: 500,
+   
   },
   project: {
     display: 'flex',
@@ -39,7 +40,7 @@ const useStyles = createUseStyles({
 
 
 const Project = ({ label, link, technology }) => {
-  
+
   const classes = useStyles();
 
   return (

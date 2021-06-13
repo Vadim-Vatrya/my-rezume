@@ -70,7 +70,7 @@ const Summary = ({ teamWork, personalWork, workExperience, education }) => {
     <div className={classes.section}>
       <h3 className={classes.project}>PROJECTS</h3>
       <h4 className={classes.nameProject}>
-        <span className={classes.typeProject}>Teamworks </span> project
+        <span className={classes.typeProject}>Teamworks </span> projects
       </h4>
       <ol className={classes.list}>
         {teamWork.map(({ id, label, link, technology}) => (
@@ -86,7 +86,7 @@ const Summary = ({ teamWork, personalWork, workExperience, education }) => {
 
     <div className={classes.section}>
       <h4 className={classes.nameProject}>
-        <span className={classes.typeProject}>Single works</span> project
+        <span className={classes.typeProject}>Single works</span> projects
       </h4>
       <ol className={classes.list}>
         {personalWork.map(({id, label, link, technology}) => (
@@ -101,7 +101,7 @@ const Summary = ({ teamWork, personalWork, workExperience, education }) => {
     </div>
 
     <div className={classes.section}>
-      <h3 className={classes.project}>Work Experiance</h3>
+      <h3 className={classes.project}>WORK EXPERIENCE</h3>
       <ul>
         {workExperience.map(({ id, specialty, company, time, country, tasks}) => (
           <Experiance 
@@ -117,8 +117,8 @@ const Summary = ({ teamWork, personalWork, workExperience, education }) => {
       </ul>
     </div>
 
-    <div>
-      <h3>Education</h3>
+    <div className={classes.section}>
+      <h3 className={classes.project}>EDUCATION</h3>
       <ul>
         {education.map(({ id, university, label, time, experience }) => (
           <Education

@@ -2,14 +2,14 @@
   {
     "id": "id-1",
     "item": "phone",
-    "icon": "https://image.flaticon.com/icons/png/128/724/724664.png",
+    "icon": "https://image.flaticon.com/icons/png/512/185/185982.png",
     "link": "tel: 380667963846",
     "name": "+380667963846"
   },
   {
     "id": "id-2",
     "item": "email",
-    "icon": "https://image.flaticon.com/icons/png/128/552/552486.png",
+    "icon": "https://image.flaticon.com/icons/png/512/3176/3176392.png",
     "link": "mailto:VatryaVV@gmail.com",
     "name": "VatryaVV@gmail.com"
   },
@@ -17,7 +17,7 @@
   {
     "id": "id-3",
     "item": "GitHub",
-    "icon": "https://image.flaticon.com/icons/png/128/270/270798.png",
+    "icon": "https://image.flaticon.com/icons/png/512/536/536452.png",
     "link": "https://github.com/Vadim-Vatrya",
     "name": "GitHub"
   
@@ -25,14 +25,14 @@
   {
     "id": "id-4",
     "item": "LinkedIn",
-    "icon": "https://image.flaticon.com/icons/png/128/145/145807.png",
+    "icon": "https://image.flaticon.com/icons/png/512/2504/2504923.png",
     "link": "https://www.linkedin.com/in/vadim-vatrya-4858b2204/",
     "name": "LinkedIn"
   },
   {
     "id": "id-5",
     "item": "Telegram",
-    "icon": "https://image.flaticon.com/icons/png/128/2111/2111646.png",
+    "icon": "https://image.flaticon.com/icons/png/512/2504/2504941.png",
     "link": "https://t.me/Vadim_Vatrya",
     "name": "Telegram"
   }
