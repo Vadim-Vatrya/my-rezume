@@ -2,7 +2,7 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
-  li: {
+  list: {
     margitLeft: 20,
     fontSize: 14,
     lineHeight: 1.6,
@@ -19,7 +19,7 @@ const SoftSkiills = ({label}) => {
 const classes = useStyles();
 
   return (
-    <li className={classes.li}>
+    <li className={classes.list}>
       <span className={classes.label}>{label}</span>
     </li>
   )

@@ -6,6 +6,9 @@ const useStyles = createUseStyles({
   contact: {
     display: 'flex',
     alignItems: 'center',
+    '&:not(:last-child)': {
+      marginBottom: 5,
+    },
   },
 
   icon: {
@@ -13,7 +16,13 @@ const useStyles = createUseStyles({
   },
 
   link: {
-
+    fontSize: 12,
+  lineHeight: 1.83,
+  letterSpacing: 1,
+  color: "#c2c5c9",
+  '&:hover,&:focus': {
+  color: '#f7610a',
+},
   },
 
 })
