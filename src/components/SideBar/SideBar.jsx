@@ -13,6 +13,24 @@ const useStyles = createUseStyles({
     padding: 40,
     background: '#525151',
   },
+  wrapper: {
+    display: 'flex',
+    
+    marginTop: 5
+  },
+  city: {
+  marginLeft: 4,
+  fontSize: 12,
+  lineHeight: 1.83,
+  letterSpacing: 1,
+  color: "#c2c5c9",
+  '&:hover,&:focus': {
+  color: '#f7610a',
+},
+  },
+  icon: {
+    marginRight: 10,
+  },
   section: {
     marginTop: 50,
   },
@@ -58,6 +76,11 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
 
       <div className={classes.section}>
         <h3 className={classes.title}>Contacts</h3>
+        <div className={classes.wrapper}>
+        <img src={'https://image.flaticon.com/icons/png/512/2204/2204030.png'} alt="city" width="25" className={classes.icon}/>
+        <h4 className={classes.city}>
+          Kherson
+        </h4></div>  
         <ul>
           {contacts.map(({ id, item, link, name, icon }) => (
             <Contacts
