@@ -23,12 +23,12 @@
     "link": "https://vadim-vatrya-goit-react-hw-04-movies.netlify.app",
     "technology": "ReactJS, React-Router, React hooks "
   },
-  {"id": "id-4",
+  {"id": "id-5",
     "label": "PhoneBook",
     "link": "https://vadim-vatrya-goit-react-hw-09-phonebook.netlify.app",
-    "technology": "ReactJS, Redux, React-Router, React hooks, MaterialUi "
+    "technology": "ReactJS, Redux, React-Router, React hooks"
   },
-  {"id": "id-4",
+  {"id": "id-6",
     "label": "To do list",
     "link": "https://vadim-vatrya.github.io/to-do-react/",
     "technology": "ReactJS,  React hooks, MaterialUi "

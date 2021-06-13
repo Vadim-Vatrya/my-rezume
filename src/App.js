@@ -19,9 +19,8 @@ function App() {
       <SideBar
         techSkills={techSkills}
         softSkills={softSkills}
-        contacts={contacts}
         languages={languages}
-      />
+        contacts={contacts}/>
       <Summary
         teamWork={teamWork}
         personalWork={personalWork}

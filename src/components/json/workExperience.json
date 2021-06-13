@@ -1,7 +1,7 @@
 [
   {
     "id": "id-1",
-    "specialty": "Inspector technical control department",
+    "specialty": "Inspector technical control department      ",
     "company": "Private enterprise Avia-Pro",
     "time": "April 2008 - July 2005",
     "country": "Ukraine",
@@ -22,7 +22,7 @@
   },
   {
     "id": "id-2",
-    "specialty": "Manager workshops concrete products",
+    "specialty": "Manager workshops concrete products        ",
     "company": "Private enterprise Evroclass",
     "time": "June 2015 - May 2008",
     "country": "Ukraine",
@@ -39,7 +39,7 @@
   },
   {
     "id": "id-3",
-    "specialty": "Manager of the food department",
+    "specialty": "Manager of the food department     ",
     "company": "Private enterprise",
     "time": "Nowadays - July 2015",
     "country": "Ukraine",
