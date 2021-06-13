@@ -3,12 +3,18 @@
     "id": "id-1",
     "label": "Ice cream",
     "link": "https://vitalii-skubii.github.io/icecream/",
-    "technology": "HTML5, Css, Sass"
+    "technology": "HTML5, CSS, SASS"
   },
   { 
     "id": "id-2",
     "label": "Final Project",
     "link": "",
     "technology": "React, NodeJS, JavaScript"
+  },
+  { 
+    "id": "id-3",
+    "label": "Filmoteka",
+    "link": "https://ionblak.github.io/filmoteka/",
+    "technology": "JavaScript, HTML5, CSS, SASS, BEM "
   }
 ]
