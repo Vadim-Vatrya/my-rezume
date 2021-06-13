@@ -15,11 +15,11 @@ const useStyles = createUseStyles({
     background: '#525151'
   },
   section: {
-    marginTop: 50
+    marginTop: 50,
   },
   title: {
-    fontSize: 16 ,
-    lineHeight: 1.6 ,
+    fontSize: 18,
+    lineHeight: 1.6,
     color: '#fff',
   }
 

@@ -9,7 +9,7 @@ const useStyles = createUseStyles({
   },
 
   icon: {
-    marginRight: '10',
+    marginRight: 10 ,
   },
 
   link: {

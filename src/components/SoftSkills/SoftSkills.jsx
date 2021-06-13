@@ -1,9 +1,26 @@
 import React from 'react';
+import { createUseStyles } from 'react-jss';
+
+const useStyles = createUseStyles({
+  li: {
+    margitLeft: 20,
+    fontSize: 14,
+    lineHeight: 1.6,
+    color: '#8ea143'
+  },
+  label: {
+    color: '#fcfce8',
+  }
+
+});
 
 const SoftSkiills = ({label}) => {
+
+const classes = useStyles();
+
   return (
-    <li>
-      <p>{label}</p>
+    <li className={classes.li}>
+      <span className={classes.label}>{label}</span>
     </li>
   )
 };
