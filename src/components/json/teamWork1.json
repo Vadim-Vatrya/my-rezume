@@ -10,5 +10,11 @@
     "label": "Final Project",
     "link": "",
     "technology": "React, NodeJS, JavaScript"
+  },
+  { 
+    "id": "id-3",
+    "label": "Filmoteka",
+    "link": "ionblak.github.io/filmoteka/",
+    "technology": "JavaScript, HTML5, CSS, SASS, BEM "
   }
 ]
