@@ -1,0 +1,16 @@
+[
+  {
+    "id": "id-1",
+    "university": "GoIT",
+    "label": "Certificate Course in Full stack developer",
+    "time": "June 2020 - June 2021",
+    "experience": null
+  },
+  {
+    "id": "id-2",
+    "university": "Kherson National Technical University",
+    "label": "Іpecialist - Production automation",
+    "time": "Septermber 2000 - June 2005",
+    "experience": null
+  }
+]

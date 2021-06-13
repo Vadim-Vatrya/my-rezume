@@ -1,20 +1,39 @@
 import React from 'react';
-
-import style from './SideBar.scss';
+import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';
 
-import Contacts from '../Contacts';
+
 import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
+import Contacts from '../Contacts';
 import Languages from '../Languages';
 
+const useStyles = createUseStyles({
+  sidebar: {
+    minWidth: 300,
+    padding: 40 ,
+    background: '#525151'
+  },
+  section: {
+    marginTop: 50
+  },
+  title: {
+    fontSize: 16 ,
+    lineHeight: 1.6 ,
+    color: '#fff',
+  }
+
+})
+
 const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
+
+  const classes = useStyles();
+
   return (
-    <div>
-      {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
-      <aside className={style.aside}>
-        <div>
-          <h3>Tech Skills</h3>
+      <aside className={classes.sidebar}>
+        {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
+        <div className={classes.section}>
+          <h3 className={classes.title}>Tech Skills</h3>
           <ul>
             {techSkills.map(({ id, label }) => (
               <TechSkills 
@@ -25,8 +44,8 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
           </ul>
         </div>
 
-        <div>
-          <h3>Soft Skills</h3>
+        <div className={classes.section}>
+          <h3 className={classes.title}>Soft Skills</h3>
           <ul>
             {softSkills.map(({ id, label }) => (
               <SoftSkills
@@ -36,8 +55,8 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
           </ul>
         </div>
 
-        <div className={style.section}>
-          <h3 className={style.name}>Contacts</h3>
+        <div className={classes.section}>
+          <h3 className={classes.title}>Contacts</h3>
           <ul>
             {contacts.map(({ id, item, link, name, icon }) => (
               <Contacts
@@ -51,8 +70,8 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
           </ul>
         </div>
 
-        <div>
-          <h3>Languages</h3>
+        <div className={classes.section}>
+          <h3 className={classes.title}>Languages</h3>
           <ul>
             {languages.map(({ id, label }) => (
               <Languages 
@@ -62,7 +81,7 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
           </ul>
         </div>
       </aside>
-    </div>
+  
   );
 };
 

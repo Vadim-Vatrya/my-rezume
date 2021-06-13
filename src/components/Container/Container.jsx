@@ -9,7 +9,6 @@ const useStyles = createUseStyles({
     margin: "0 auto",
     maxWidth: 1200,
     backgroundColor: '#fff',
-    boxShadow: '10px 18px 40px rgba(0, 0, 0, 0.25)',
   }
 })
 
