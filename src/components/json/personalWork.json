@@ -13,8 +13,8 @@
   },
   {
     "id": "id-3",
-    "label": "Games shake",
-    "link": "",
+    "label": "Games snake",
+    "link": "https://Vadim-Vattya.github.io/shake/",
     "technology": "JavaScript, CSS3, Webpack"
   },
   {
