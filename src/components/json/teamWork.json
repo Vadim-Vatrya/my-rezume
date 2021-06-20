@@ -3,12 +3,14 @@
     "id": "id-1",
     "label": "Ice cream",
     "link": "https://vitalii-skubii.github.io/icecream/",
-    "technology": "HTML5, CSS, SASS"
+    "technology": "HTML5, CSS, SASS, GulpJS",
+    "about": "Ice cream advertisement. Adaptive layout"
   },
-  { 
+  {
     "id": "id-2",
     "label": "Final Project",
     "link": "",
-    "technology": "React, NodeJS, JavaScript"
+    "technology": "HTML5, CSS, ReactJS, ReduxJS, NodeJS, MongoDB, Express, JavaScript",
+    "about": "Project"
   }
 ]

@@ -18,7 +18,7 @@ const useStyles = createUseStyles({
     fontSize: 12,
     lineHeight: 1.83,
     letterSpacing: 1,
-    color: '#c2c5c9',
+    color: '#fcfce8',
     '&:hover,&:focus': {
       color: '#f7610a',
     },

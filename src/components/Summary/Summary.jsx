@@ -18,7 +18,7 @@ const useStyles = createUseStyles({
     lineHeight: 1.3,
     textTransform: 'uppercase',
     marginBottom: 20,
-    color: '#f7610a'
+    color: '#f7610a',
   },
   female: {
     fontWeight: 600,
@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
   },
   text: {
     fontSize: 16,
-  lineHeight: 1.5,
+    lineHeight: 1.5,
   },
   project: {
     marginBottom: 10,
@@ -44,98 +44,100 @@ const useStyles = createUseStyles({
     lineHeight: 1.5,
   },
   typeProject: {
-    color:'#f7610a'
+    color: '#f7610a',
   },
   list: {
-    marginBottom: 20
+    marginBottom: 20,
   },
-
-})
+});
 
 const Summary = ({ teamWork, personalWork, workExperience, education }) => {
-
   const classes = useStyles();
 
   return (
-  <div className={classes.body}>
-    <div className={classes.section}>
-      <h2 className={classes.profession}>Front-End Development</h2>
-      <h1 className={classes.female}>Vadim Vatrya</h1>
-      <p className={classes.text}>
-      I'm a beginner front-end developer.  Front-end technologies are the most promising and developing. 
-      I want to find an inter job in a good team and solve interesting tasks. I am freandly, responsible and ready for new challenges. 
-      </p>
-    </div>
+    <div className={classes.body}>
+      <div className={classes.section}>
+        <h2 className={classes.profession}>Front-End Development</h2>
+        <h1 className={classes.female}>Vadim Vatrya</h1>
+        <p className={classes.text}>
+          I'm a beginner front-end developer. Front-end technologies are the
+          most promising and developing IT industry. My primary target is to get
+          job in a good team for further education JavaScript, NodeJS and
+          framework ReactJS. I want to grow and develop in these technologies.
+          You can see the projects on these technologies below. I'm an
+          enthusiastic and look forward new challenges.
+        </p>
+      </div>
 
-    <div className={classes.section}>
-      <h3 className={classes.project}>PROJECTS</h3>
-      <h4 className={classes.nameProject}>
-        <span className={classes.typeProject}>Teamworks </span> projects
-      </h4>
-      <ol className={classes.list}>
-        {teamWork.map(({ id, label, link, technology}) => (
-          <Project 
-          key={id}
-          label={label}
-          link={link}
-          technology={technology}
-          />
-        ))}
-      </ol>
-    </div>
+      <div className={classes.section}>
+        <h3 className={classes.project}>PROJECTS</h3>
+        <h4 className={classes.nameProject}>
+          <span className={classes.typeProject}>Teamworks </span> projects
+        </h4>
+        <ol className={classes.list}>
+          {teamWork.map(({ id, label, link, technology, about }) => (
+            <Project
+              key={id}
+              label={label}
+              link={link}
+              technology={technology}
+              about={about}
+            />
+          ))}
+        </ol>
+      </div>
 
-    <div className={classes.section}>
-      <h4 className={classes.nameProject}>
-        <span className={classes.typeProject}>Single works</span> projects
-      </h4>
-      <ol className={classes.list}>
-        {personalWork.map(({id, label, link, technology}) => (
-          <Project
-          key={id}
-          label={label}
-          link={link}
-          technology={technology}
-          />
-        ))}
-      </ol>
-    </div>
+      <div className={classes.section}>
+        <h4 className={classes.nameProject}>
+          <span className={classes.typeProject}>Single works</span> projects
+        </h4>
+        <ol className={classes.list}>
+          {personalWork.map(({ id, label, link, technology, about }) => (
+            <Project
+              key={id}
+              label={label}
+              link={link}
+              technology={technology}
+              about={about}
+            />
+          ))}
+        </ol>
+      </div>
 
-    <div className={classes.section}>
-      <h3 className={classes.project}>WORK EXPERIENCE</h3>
-      <ul>
-        {workExperience.map(({ id, specialty, company, time, country, tasks}) => (
-          <Experiance 
-           key={id}
-           specialty={specialty}
-           company={company}
-           time={time}
-           country={country}
-           tasks={tasks}
-           />
-        ),
-        )}
-      </ul>
-    </div>
+      <div className={classes.section}>
+        <h3 className={classes.project}>WORK EXPERIENCE</h3>
+        <ul>
+          {workExperience.map(
+            ({ id, specialty, company, time, country, tasks }) => (
+              <Experiance
+                key={id}
+                specialty={specialty}
+                company={company}
+                time={time}
+                country={country}
+                tasks={tasks}
+              />
+            ),
+          )}
+        </ul>
+      </div>
 
-    <div className={classes.section}>
-      <h3 className={classes.project}>EDUCATION</h3>
-      <ul>
-        {education.map(({ id, university, label, time, experience }) => (
-          <Education
-           key={id}
-           university={university}
-           label={label}
-           time={time}
-           experience={experience} 
-          />
-        )
-        )}
-      </ul>
+      <div className={classes.section}>
+        <h3 className={classes.project}>EDUCATION</h3>
+        <ul>
+          {education.map(({ id, university, label, time, experience }) => (
+            <Education
+              key={id}
+              university={university}
+              label={label}
+              time={time}
+              experience={experience}
+            />
+          ))}
+        </ul>
+      </div>
     </div>
-
-  </div>
-  )
+  );
 };
-
 
 export default Summary;

@@ -3,16 +3,17 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
   item: {
+    display: 'list-item',
     marginLeft: 20,
     fontWeight: 500,
-   
   },
-  project: {
-    display: 'flex',
-    alignItems: 'center',
-    flexWrap: 'wrap',
-  },
+  // project: {
+  //   display: 'list-item',
+  //   alignItems: 'center',
+  //   flexWrap: 'wrap',
+  // },
   link: {
+    marginLeft: 10,
     marginRight: 5,
     width: '50%',
     overflow: 'hidden',
@@ -23,24 +24,31 @@ const useStyles = createUseStyles({
     color: '#585859',
     '&after': {
       marginLeft: 5,
-      content: '................................................................',
+      content:
+        '................................................................',
     },
-    
+
     '&:hover,&:focus': {
       color: '#f7610a',
     },
+  },
+  span: {
+    marginLeft: 20,
   },
   name: {
     fontWeight: 400,
     fontSize: 14,
     lineHeight: 1.71,
-    color:'#585859',
-  }
-  });
+    color: '#585859',
+  },
+  about: {
+    fontSize: 12,
+    lineHeight: 2,
+    color: '#000000',
+  },
+});
 
-
-const Project = ({ label, link, technology }) => {
-
+const Project = ({ label, link, technology, about }) => {
   const classes = useStyles();
 
   return (
@@ -49,9 +57,10 @@ const Project = ({ label, link, technology }) => {
         <a className={classes.link} href={link} target="_blank">
           {label}
         </a>
-        <span>
+        <span className={classes.span}>
           <b>[</b> <span className={classes.name}>{technology}</span> <b>]</b>
         </span>
+        <p className={classes.about}>About project: {about}</p>
       </div>
     </li>
   );
