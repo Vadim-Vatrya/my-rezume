@@ -2,28 +2,27 @@ import React from 'react';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
-  item:{
+  item: {
     listStyle: 'none',
-      '&:not(:last-child)': {
-    marginBottom: 25,
+    '&:not(:last-child)': {
+      marginBottom: 25,
     },
   },
-  title:{
+  title: {
     fontWeight: 700,
     fontSize: 18,
     lineHeight: 1.5,
-    color:'#f7610a'
+    color: '#f7610a',
   },
-  company:{
+  company: {
     marginBottom: 5,
-    
   },
   time: {
     display: 'block',
     marginBottom: 15,
     fontSize: 12,
     lineHeight: 2,
-    color: '#9b99ad'
+    color: '#000000',
   },
   delimiter: {
     color: '#000000',
@@ -32,20 +31,17 @@ const useStyles = createUseStyles({
     fontSize: 14,
     lineHeight: 1.71,
     listStyle: 'inside',
-    color: '#585859',
+    color: '#000000',
     // marginBottom: 10
   },
-})
+});
 
 const Experiance = ({ specialty, company, time, country, tasks }) => {
-
   const classes = useStyles();
 
   return (
     <li className={classes.item}>
-      <h4 className={classes.title}>
-        {specialty}
-      </h4>
+      <h4 className={classes.title}>{specialty}</h4>
       <h4 className={classes.company}>{company}</h4>
       <span className={classes.time}>
         {time}
@@ -53,7 +49,9 @@ const Experiance = ({ specialty, company, time, country, tasks }) => {
       </span>
       <ul>
         {tasks.map(({ id, task }) => (
-          <li key={id} className={classes.task}>{task}</li>
+          <li key={id} className={classes.task}>
+            {task}
+          </li>
         ))}
       </ul>
     </li>

@@ -10,9 +10,9 @@ const useStyles = createUseStyles({
     },
   },
 
-  icon: {
-    marginRight: 10,
-  },
+  // icon: {
+  //   marginRight: 10,
+  // },
 
   link: {
     fontSize: 12,
@@ -25,11 +25,11 @@ const useStyles = createUseStyles({
   },
 });
 
-const Contacts = ({ item, link, name, icon }) => {
+const Contacts = ({ item, link, name }) => {
   const classes = useStyles();
   return (
     <li className={classes.contact}>
-      <img src={icon} alt={item} width="25" className={classes.icon} />
+      {/* <img src={icon} alt={item} width="25" className={classes.icon} /> */}
       <a href={link} className={classes.link}>
         {name}
       </a>

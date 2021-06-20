@@ -15,18 +15,18 @@ const useStyles = createUseStyles({
   },
   wrapper: {
     display: 'flex',
-    
-    marginTop: 5
+
+    marginTop: 5,
   },
   city: {
-  marginLeft: 4,
-  fontSize: 12,
-  lineHeight: 1.83,
-  letterSpacing: 1,
-  color: "#c2c5c9",
-  '&:hover,&:focus': {
-  color: '#f7610a',
-},
+    marginLeft: 4,
+    fontSize: 12,
+    lineHeight: 1.83,
+    letterSpacing: 1,
+    color: '#c2c5c9',
+    '&:hover,&:focus': {
+      color: '#f7610a',
+    },
   },
   icon: {
     marginRight: 10,
@@ -47,6 +47,25 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
   return (
     <aside className={classes.sidebar}>
       {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
+
+      <div className={classes.section}>
+        <h3 className={classes.title}>Contacts</h3>
+        <div className={classes.wrapper}>
+          {/* <img
+            src={'https://image.flaticon.com/icons/png/512/2204/2204030.png'}
+            alt="city"
+            width="25"
+            className={classes.icon}
+          /> */}
+          <h4 className={classes.city}>Kherson</h4>
+        </div>
+        <ul>
+          {contacts.map(({ id, item, link, name }) => (
+            <Contacts key={id} item={item} link={link} name={name} />
+          ))}
+        </ul>
+      </div>
+
       <div className={classes.section}>
         <h3 className={classes.title}>Tech Skills</h3>
         <ul>
@@ -70,26 +89,6 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
         <ul>
           {languages.map(({ id, label }) => (
             <Languages key={id} label={label} />
-          ))}
-        </ul>
-      </div>
-
-      <div className={classes.section}>
-        <h3 className={classes.title}>Contacts</h3>
-        <div className={classes.wrapper}>
-        <img src={'https://image.flaticon.com/icons/png/512/2204/2204030.png'} alt="city" width="25" className={classes.icon}/>
-        <h4 className={classes.city}>
-          Kherson
-        </h4></div>  
-        <ul>
-          {contacts.map(({ id, item, link, name, icon }) => (
-            <Contacts
-              key={id}
-              item={item}
-              link={link}
-              name={name}
-              icon={icon}
-            />
           ))}
         </ul>
       </div>

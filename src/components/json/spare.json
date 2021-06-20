@@ -1,0 +1,23 @@
+[
+  {
+    "id": "id-1",
+    "specialty": "Inspector technical control department      ",
+    "company": "Private enterprise Avia-Pro",
+    "time": "April 2008 - July 2005",
+    "country": "Ukraine",
+    "tasks": [
+      {
+        "id": "1",
+        "task": "Control quality of polymer products"
+      },
+      {
+        "id": "2",
+        "task": "Organization, introduction and maintenance system of quality ISO:2005"
+      },
+      {
+        "id": "3",
+        "task": "Introduction of electronic document management at the enterprise"
+      }
+    ]
+  }
+]

@@ -1,14 +1,14 @@
 [
   {
     "id": "id-1",
-    "label": "English - internative"
-  },
-  { 
-    "id": "id-2",
-    "label": "Ukraine - native" 
+    "label": "English - pre-intermediate"
   },
   {
-     "id": "id-3",
+    "id": "id-2",
+    "label": "Ukraine - native"
+  },
+  {
+    "id": "id-3",
     "label": "Russion - native"
-    }
+  }
 ]
