@@ -6,6 +6,7 @@ import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
 import Contacts from '../Contacts';
 import Languages from '../Languages';
+import photo from '../../photo/photo.jpg';
 
 const useStyles = createUseStyles({
   sidebar: {
@@ -39,6 +40,9 @@ const useStyles = createUseStyles({
     lineHeight: 1.6,
     color: '#fff',
   },
+  photo: {
+    borderRadius: '50%'
+  },
 });
 
 const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
@@ -46,7 +50,7 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
 
   return (
     <aside className={classes.sidebar}>
-      {/* <img src={photo} alt='Vadim Vatrya' className={style.photo}/> */}
+      <img src={photo} alt='Vadim Vatrya' className={classes.photo}/>
 
       <div className={classes.section}>
         <h3 className={classes.title}>Contacts</h3>
