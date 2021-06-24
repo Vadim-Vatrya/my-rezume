@@ -41,7 +41,7 @@ const useStyles = createUseStyles({
     color: '#fff',
   },
   photo: {
-    borderRadius: '50%'
+    borderRadius: '50%',
   },
 });
 
@@ -50,7 +50,7 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
 
   return (
     <aside className={classes.sidebar}>
-      <img src={photo} alt='Vadim Vatrya' className={classes.photo}/>
+      <img src={photo} alt="Vadim Vatrya" className={classes.photo} />
 
       <div className={classes.section}>
         <h3 className={classes.title}>Contacts</h3>

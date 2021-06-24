@@ -19,9 +19,9 @@ const useStyles = createUseStyles({
     overflow: 'hidden',
     whiteSpace: 'nowrap',
     fontWeight: 400,
-    fontSize: 14,
+    fontSize: 16,
     lineHeight: 1.71,
-    color: '#585859',
+    color: '#000000',
     '&after': {
       marginLeft: 5,
       content:
@@ -37,12 +37,12 @@ const useStyles = createUseStyles({
   },
   name: {
     fontWeight: 400,
-    fontSize: 14,
+    fontSize: 16,
     lineHeight: 1.71,
-    color: '#585859',
+    color: '#000000',
   },
   about: {
-    fontSize: 12,
+    fontSize: 16,
     lineHeight: 2,
     color: '#000000',
   },

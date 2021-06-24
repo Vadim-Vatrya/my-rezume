@@ -15,7 +15,7 @@ const useStyles = createUseStyles({
   // },
 
   link: {
-    fontSize: 12,
+    fontSize: 16,
     lineHeight: 1.83,
     letterSpacing: 1,
     color: '#fcfce8',

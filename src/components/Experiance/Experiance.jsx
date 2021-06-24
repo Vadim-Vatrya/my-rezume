@@ -20,7 +20,7 @@ const useStyles = createUseStyles({
   time: {
     display: 'block',
     marginBottom: 15,
-    fontSize: 12,
+    fontSize: 16,
     lineHeight: 2,
     color: '#000000',
   },
@@ -28,7 +28,7 @@ const useStyles = createUseStyles({
     color: '#000000',
   },
   task: {
-    fontSize: 14,
+    fontSize: 16,
     lineHeight: 1.71,
     listStyle: 'inside',
     color: '#000000',

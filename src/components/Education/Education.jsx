@@ -25,13 +25,13 @@ const useStyles = createUseStyles({
   time: {
     display: 'block',
     marginBottom: 15,
-    fontSize: 12,
+    fontSize: 16,
     lineHeight: 2,
     color: '#000000',
   },
   delimiter: { color: '#000000' },
   list: {
-    fontSize: 14,
+    fontSize: 16,
     lineHeight: 1.71,
     listStyle: 'inside',
     color: '#585859',
