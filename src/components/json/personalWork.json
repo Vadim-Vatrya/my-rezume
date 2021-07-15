@@ -13,38 +13,26 @@
     "technology": "JavaScript, CSS3, Webpack",
     "about": "Adaptive (mobile first) web-page with image search by keywords"
   },
+
   {
     "id": "id-3",
-    "label": "Games snake",
-    "link": "https://Vadim-Vattya.github.io/shake/",
-    "technology": "JavaScript, HTML5, Webpack",
-    "about": "Snake is a classic game created by with pure JavaScript and HTML5"
-  },
-  {
-    "id": "id-4",
     "label": "Movies",
     "link": "https://vadim-vatrya-goit-react-hw-04-movies.netlify.app",
     "technology": "ReactJS, React-Router, React hooks, Module CSS, React JSS ",
     "about": "Basic routing app for searching and storing movies"
   },
   {
-    "id": "id-5",
+    "id": "id-4",
     "label": "PhoneBook",
     "link": "https://vadim-vatrya-goit-react-hw-09-phonebook.netlify.app",
     "technology": "ReactJS, Redux, React-Router, React hooks, Module CSS, React JSS",
     "about": "Application with the ability to register users and work with private collections of contacts"
   },
+
   {
-    "id": "id-6",
-    "label": "TodoList",
-    "link": "https://vadim-vatrya.github.io/to-do-react/",
-    "technology": "ReactJS,  Module CSS",
-    "about": "To do list is a list of tasks. When implemented, a modal window and filtering tasks"
-  },
-  {
-    "id": "id-7",
+    "id": "id-5",
     "label": "My-rezume",
-    "link": "https://https://vadim-vatrya.github.io/my-rezume/",
+    "link": "https://vadim-vatrya.github.io/my-rezume/",
     "technology": "ReactJS, React JSS, React-Router",
     "about": "Application created in React using components and collections"
   }

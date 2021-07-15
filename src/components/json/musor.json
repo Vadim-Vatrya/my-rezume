@@ -1,0 +1,14 @@
+{
+    "id": "id-3",
+    "label": "Games snake",
+    "link": "https://Vadim-Vattya.github.io/shake/",
+    "technology": "JavaScript, HTML5, Webpack",
+    "about": "Snake is a classic game created by with pure JavaScript and HTML5"
+  },
+  {
+    "id": "id-6",
+    "label": "TodoList",
+    "link": "https://vadim-vatrya.github.io/to-do-react/",
+    "technology": "ReactJS,  Module CSS",
+    "about": "To do list is a list of tasks. When implemented, a modal window and filtering tasks"
+  }

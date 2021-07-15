@@ -8,9 +8,9 @@
   },
   {
     "id": "id-2",
-    "label": "Final Project",
-    "link": "",
+    "label": "Project planning",
+    "link": "https://project-planning.netlify.app/ ",
     "technology": "HTML5, CSS, ReactJS, ReduxJS, NodeJS, MongoDB, Express, JavaScript",
-    "about": "Project"
+    "about": "Full stack web application for scheduling tasks, teamwork with GitHub"
   }
 ]
