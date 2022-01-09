@@ -1,23 +1,6 @@
 [
   {
-    "id": "id-2",
-    "specialty": "Manager workshops concrete products        ",
-    "company": "Private enterprise Evroclass",
-    "time": "June 2015 - May 2008",
-    "country": "Ukraine",
-    "tasks": [
-      {
-        "id": "1",
-        "task": "Installation and commissioning of a concrete plant"
-      },
-      {
-        "id": "2",
-        "task": "Production automation"
-      }
-    ]
-  },
-  {
-    "id": "id-3",
+    "id": "id-1",
     "specialty": "Manager of the food department     ",
     "company": "Private enterprise",
     "time": "Up to now - July 2015",
@@ -33,6 +16,23 @@
       },
       {
         "id": "3",
+        "task": "Production automation"
+      }
+    ]
+  },
+  {
+    "id": "id-2",
+    "specialty": "Manager workshops concrete products        ",
+    "company": "Private enterprise Evroclass",
+    "time": "June 2015 - May 2008",
+    "country": "Ukraine",
+    "tasks": [
+      {
+        "id": "1",
+        "task": "Installation and commissioning of a concrete plant"
+      },
+      {
+        "id": "2",
         "task": "Production automation"
       }
     ]

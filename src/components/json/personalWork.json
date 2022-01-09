@@ -35,5 +35,13 @@
     "link": "https://vadim-vatrya.github.io/my-rezume/",
     "technology": "ReactJS, React JSS, React-Router",
     "about": "Application created in React using components and collections"
+  },
+
+  {
+    "id": "id-6",
+    "label": "Weather-forecast-by-city",
+    "link": "https://vadim-vatrya.github.io/weather-forecast-by-city/",
+    "technology": "ReactJS, React hooks, SCSS module ",
+    "about": "Shows the current weather in the city. The application uses Weather API"
   }
 ]
