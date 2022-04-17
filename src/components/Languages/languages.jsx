@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
   list: {
-    margitLeft: 20,
+    marginLeft: 20,
     fontSize: 16,
     lineHeight: 1.6,
     color: '#8ea143',

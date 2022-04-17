@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import TechSkills from '../TechSkills';
 import SoftSkills from '../SoftSkills';
 import Contacts from '../Contacts';
-import Languages from '../Languages';
+import Languages from '../Languages/languages';
 import photo from '../../photo/photo.jpg';
 
 const useStyles = createUseStyles({
@@ -61,7 +61,7 @@ const SideBar = ({ contacts, techSkills, softSkills, languages }) => {
             width="25"
             className={classes.icon}
           /> */}
-          <h4 className={classes.city}>Kherson</h4>
+          <h4 className={classes.city}>Kherson (Kropyvnytskyi)</h4>
         </div>
         <ul>
           {contacts.map(({ id, item, link, name }) => (
